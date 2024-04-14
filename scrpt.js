@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       loaderMessage.innerHTML = "Loading complete. Rendering...";
       setTimeout(function() {
         // Redirect to another file after 2 seconds
-        window.location.href = "protfolio.html";
+        window.location.href = "portfolio.html";
       }, 2000);
     } else {
       if (width < 25) {
